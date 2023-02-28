@@ -34,7 +34,8 @@
     width: 100%; */
     width: 59vw;
     z-index: 64;
-    top: -38vh;
+    top: -40vh;
+    margin: auto;
 }
 
 .actionContainer{

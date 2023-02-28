@@ -83,8 +83,8 @@ const IndustrySelection = () => {
 
             let sinalpha = Math.sin(alpha);
             let cosalpha = Math.cos(alpha);
-            let X = 20 * sinalpha - 25.5;
-            let Y = -29.4 * cosalpha + 26.5;
+            let X = 20 * sinalpha - 24.5;
+            let Y = -29.4 * cosalpha + 26.25;
             console.log(X, Y);
             return (
               <CircleIcon

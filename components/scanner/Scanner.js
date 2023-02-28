@@ -7,6 +7,9 @@ import ResultData from "../ResultPanel/ResultData";
 import FilterPanel from "../FilterPanel/FilterPanel";
 import classes from "./Scanner.module.css";
 import SelectedData from "../SelectedData/SelectedData";
+//import SelectionPanelMobile from "../selection-panel/selection-panel-mobile/selection-panel-mobile";
+import SelectionPanelMobile from "../selection-panel-mobile/selection-panel-mobile";
+import {BrowserView, MobileView} from 'react-device-detect';
 
 const Scanner = () => {
   const AppDataCtx = useContext(AppDataContext);
@@ -22,7 +25,14 @@ const Scanner = () => {
           </div>
         )}
         {!AppDataCtx.results && AppDataCtx.currentLevel.number == 0 && (
-          <SelectionPanel />
+          <div>
+            <BrowserView>
+            <SelectionPanel />
+          </BrowserView>
+          <MobileView>
+          <SelectionPanelMobile/>
+          </MobileView>
+          </div>
         )}
         {AppDataCtx.results && (
           <>

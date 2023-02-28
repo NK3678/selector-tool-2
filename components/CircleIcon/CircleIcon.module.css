@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
-    min-width: 3.5vw;
-    min-height: 3.5vw;
+    min-width: 4.5vw;
+    min-height: 4.5vw;
     border: .13rem solid var(--primaryColor);
     border-radius: 50%;
     background-color: #fff;
