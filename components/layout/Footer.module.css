@@ -1,0 +1,28 @@
+
+.footer {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    /* padding-top: 1rem; */   
+    
+   
+  }
+  
+.footer a {
+    padding: 0.5rem;
+  }
+.copyright p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.footerSocial{
+    padding: 10px 0;
+    text-align: center;
+}
+.footerSocial svg {
+    margin: 0 7px;
+    color: white;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}

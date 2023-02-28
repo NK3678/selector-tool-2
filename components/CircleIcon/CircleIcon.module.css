@@ -1,0 +1,76 @@
+.circle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    min-width: 3.5vw;
+    min-height: 3.5vw;
+    border: .13rem solid var(--primaryColor);
+    border-radius: 50%;
+    background-color: #fff;
+    transition: All 0.4s ease;
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+    /* /* background-color: #f3f8fe; * / */
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.industryIcon {
+    margin-bottom: 1rem;
+    width: 7rem;
+}
+.industryIconPostion {
+    position: absolute;
+}
+
+.ball {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.ball span {
+    margin-top: .5vw;
+    font-size: 0.75rem;
+    /* line-height: .7rem; */
+    transition: All 0.4s ease-in-out;
+}
+
+.selected {
+    font-weight: 700;
+}
+
+.selected .circle {
+    box-shadow: 0 0 0 .25rem var(--primaryColor);
+}
+
+.selected .circle:before {
+    top: 0 !important;
+    right: -2px !important;
+    opacity: 1;
+}
+
+.tooltip{
+    top: 20px;
+    left: -20px;
+    color: var(--primaryColor);
+    border-radius: 100%;
+    cursor: pointer;
+    height: 1.5rem;
+    position: relative;
+    width: 1.5rem;
+    z-index: 1;
+}
+
+.noShow{
+    opacity: 0.4;
+    pointer-events: none;
+}

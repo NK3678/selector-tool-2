@@ -1,0 +1,79 @@
+.panelTitle:after {
+    top: 16px;
+    background-image: url(/media/common/icon-plus.png);
+    background-size: 12px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    content: "";
+    background-repeat: no-repeat;
+    right: 0;
+    position: absolute;
+}
+
+.panelTitle.collapsible:after {
+    background-image: url(/media/common/icon-minus.png);
+}
+
+.panelTitle {
+    margin: 0.7rem;
+    color: #004085;
+}
+
+.panelHeading {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.panelBody {
+    background-color: #f3f8fe;
+    max-height: 0px;
+    overflow: hidden;
+    transition: All 500ms;
+    color: var(--primaryColor);
+}
+
+.panelBody.collapsible {
+    max-height: 1000px;
+    padding: 10px 0px;
+}
+
+.panelBody span {
+    padding-left: 3px;
+}
+
+.selectedCategory {
+    font-style: italic;
+    font-size: xx-small;
+}
+
+.category {
+    font-size: 0.83em;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+.filterCat {
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-weight: 600;    
+    transition: All 600ms;
+    display: flex;
+}
+
+.filterCat.selected {
+    background-color: #cce5ff;
+}
+.filterCat svg {
+    margin-top: 2px;
+}
+
+.disabled{
+    
+}

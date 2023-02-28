@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: white; changes as per lj */
+  background-color: black;
+  border-bottom: 1px solid #e5e8e8;
+}
+
+.logo {
+  padding: 17px 15px 17px 0;
+  min-width: 140px;
+  min-height: 44px;
+  max-width: 140px;
+}

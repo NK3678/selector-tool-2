@@ -1,0 +1,36 @@
+.back{
+    text-align: right;
+}
+
+.showResult{
+    width: 200px;
+}
+
+.enabled {
+    background-color: var(--primaryColor);
+    color: #fff;
+    cursor: pointer;
+}
+
+.next:before {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    content: url(https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7B70a428fc-d141-429f-ad1e-fc6b1da84599%7D_next.png);
+}
+.back:before {
+    position: absolute;
+    top: 6px;
+    left: 13px;
+    display: inline-block;
+    content: url(https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7B70a428fc-d141-429f-ad1e-fc6b1da84599%7D_next.png);
+    transform: rotate(180deg);
+}
+
+.next.enabled:before {
+    content: url(https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7Baedea00d-6491-4c53-a8ff-835bd46f8747%7D_next-enabled.png);
+}
+
+.back.enabled:before {
+    content: url(https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7Baedea00d-6491-4c53-a8ff-835bd46f8747%7D_next-enabled.png);
+}

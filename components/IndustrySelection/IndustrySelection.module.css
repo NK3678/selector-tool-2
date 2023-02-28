@@ -1,0 +1,50 @@
+.ellipse{
+    
+    border: 1px solid #2482F0;
+    border-radius: 50%;
+    margin:auto;
+    width: 59vw;
+    height: 45vh;
+    z-index: 20;
+    transform :perspective(75vh) rotateX(35deg)
+}
+.ellipseContainer{
+    
+    position: relative;
+    border-radius: 50%;
+    margin:auto;
+    width: 59vw;
+    height: 45vh;
+    z-index: 20;
+    
+}
+.imageContainer{
+    position: relative;
+    width: 59vw;
+    height: 40vh;
+    margin: auto;
+    top: -43vh;
+}
+
+
+.industrySelection {
+    position: relative;
+    /*height: 14vw;
+    margin: 0 auto;
+    width: 100%; */
+    width: 59vw;
+    z-index: 64;
+    top: -38vh;
+}
+
+.actionContainer{
+    top: -30vh;
+    position: relative;
+}
+
+
+@media (max-width:801px)  { 
+    .zebraFinder{
+        display:none;
+    }
+ }

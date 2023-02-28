@@ -1,0 +1,33 @@
+.banner{
+    display: flex;
+    padding: 30px;
+    border: 1px solid #c4c4c4;
+    color: #333;
+    margin: 30px 0;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+.footerSection p{
+    color:#333333;
+    font-size: 13px;
+}
+.textFoot {
+    font-size: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 20px;
+    height: 40px;
+    background-color: var(--primaryColor);
+    color: white !important;
+    box-shadow: 0 2px 3px 1px rgb(0 0 0 / 20%);
+}
+
+@media (max-width:800px) {
+    .banner {
+        flex-wrap: wrap;
+    }
+}

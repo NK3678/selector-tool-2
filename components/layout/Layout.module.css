@@ -1,0 +1,15 @@
+/* .main{
+    padding-bottom: 4rem;
+    position: relative;
+     background-color: #f3f8fe; 
+} */
+
+.mainblock{
+    min-height: 86.5vh !important;
+}
+
+@media (width>1425px) {
+    .mainblock {
+        min-height: 77vh !important;
+    }
+}

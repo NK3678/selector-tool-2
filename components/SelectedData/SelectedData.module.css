@@ -1,0 +1,69 @@
+.zebraFinder {
+    margin:auto;
+    /* position: relative; */
+    text-align: center;
+    /* left: 25%; */
+    /* top: -7vh; */
+
+    z-index: 50;
+    
+}
+.ellipse{
+    margin: 0 auto;
+    width: 22rem;
+}
+
+.industrySelection {
+    /* position: relative; */
+    height: 40vh;
+    width: 37vw;
+    margin: 0 auto;
+   
+}
+
+@media (max-width:801px)  { 
+    .zebraFinder , .selector-container{
+        display:none;
+    }
+
+ }
+
+ .ellipseNW{
+    position: relative;
+    border: 1px solid #2482F0;
+    border-radius: 50%;
+    margin:auto;
+    /* max-width: 850px;
+    max-height: 196px; */
+    width: 69vw;
+    height: 35vh;
+    top:7vh;
+    z-index: 20;
+    margin: auto;
+    
+}
+
+.section-b{
+    position: relative;
+    /* border: 1px solid #2482F0;
+    border-radius: 50%;
+    margin:2vw 5vw 0 7vw; */
+    /* width: 80%;
+    height: 150px;  */
+    
+    z-index: 80;
+    top: -10vh;
+    text-align: center;
+  
+   
+}
+
+.selector-container{
+    position: relative;
+    /* height: 100%;
+    width: 100%; */
+    justify-content: center;
+    /* max-width: 1200px; */
+    /* height: 19rem; */
+    height: 50vh;
+}

@@ -1,0 +1,6 @@
+.start{
+    background-color: var(--primaryColor);
+    color: #fff;
+    cursor: pointer;
+    width:auto;
+}

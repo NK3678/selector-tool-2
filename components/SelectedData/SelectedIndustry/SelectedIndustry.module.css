@@ -1,0 +1,12 @@
+.selector-container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.selector-icons{
+    position: absolute;
+    /* left: -41px; */
+    /* border :1px solid black */
+    height: 113px;
+}

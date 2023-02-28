@@ -1,0 +1,21 @@
+.section_ignore:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: cyan;
+    background: linear-gradient(120deg, cyan, #00c9ff 50%, #09f);
+    bottom: 0;
+    -webkit-clip-path: polygon(100% 0, 0 86%, 100% 100%);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    content: "";
+    display: block;
+    height: 108px;
+    position: absolute;
+    right: 0;
+    width: 40%;
+}
+
+@media (max-width:1025px) {
+    .resultPage {
+        flex-wrap: wrap;
+    }
+}
