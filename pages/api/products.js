@@ -102,7 +102,7 @@ export default function handler(req, res) {
         id: 6,
         name: "DS9908-HD",
         note: "",
-        imageURL:"https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7Ba83c5f78-a4c2-435e-88b3-4858a3d34352%7D_DS9908-HD.png",
+        imageURL:"https://www.zebra.com/content/dam/zebra_dam/global/zcom-web-production/web-production-photography/product-cards/model/ds9908hd-3x2-3600.jpg.imgw.3600.3600.jpg",
         productPage:
           "https://www.zebra.com/us/en/products/scanners/general-purpose-hands-free-scanners/ds9900-series.html",
         specSheetURL:
