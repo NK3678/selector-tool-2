@@ -98,6 +98,25 @@ export default function handler(req, res) {
           { levelId: 7, categoryId: "1,3,12,13,15,16" },
         ],
       },
+      {
+        id: 6,
+        name: "DS9908-HD",
+        note: "",
+        imageURL:"https://img.en25.com/EloquaImages/clients/ZebraTechnologiesCorp/%7Ba83c5f78-a4c2-435e-88b3-4858a3d34352%7D_DS9908-HD.png",
+        productPage:
+          "https://www.zebra.com/us/en/products/scanners/general-purpose-hands-free-scanners/ds9900-series.html",
+        specSheetURL:
+          "https://www.zebra.com/us/en/products/spec-sheets/scanners/general-purpose-scanners/ds9908hd-ds9908hd-r.html",
+        level: [
+          { levelId: 1, categoryId: "3" },
+          { levelId: 2, categoryId: "5,11" },
+          { levelId: 3, categoryId: "13,15,16,17" },
+          { levelId: 4, categoryId: "1,2,3" },
+          { levelId: 5, categoryId: "1,2,4" },
+          { levelId: 6, categoryId: "1,2" },
+          { levelId: 7, categoryId: "1,3,4,12,13,22" },
+        ],
+      },
     ];
     res.status(200).json(products);
   }
